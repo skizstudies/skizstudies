@@ -10,10 +10,10 @@
     }
 
     /* Schedule each frame to appear for 1 second */
-    #frame1 { animation-delay: 0s; }
+    #frame1 { animation-delay: 0.5s; }
     #frame2 { animation-delay: 1s; }
-    #frame3 { animation-delay: 2s; }
-    #frame4 { animation-delay: 3s; }
+    #frame3 { animation-delay: 1.5s; }
+    #frame4 { animation-delay: 2s; }
 
     @keyframes cycle {
       0% { opacity: 1; }  /* Show frame at its start time */
