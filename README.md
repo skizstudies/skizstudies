@@ -20,7 +20,7 @@
     </td>
     <td width="40%" align="center">
 <pre>
-  <img src="cat.svg" width="350" style="display: block; height: auto;" alt="Animated Braille Cat">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+  <img src="cat.svg" width="600" style="display: block; height: auto;" alt="Animated Braille Cat">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 </pre>
     </td>
   </tr>
