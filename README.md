@@ -29,5 +29,5 @@
 ## About Me
 🌐 **Currently Exploring:** Cybersecurity, UX/UI, Data Science <br>
 🎱 **Side Quests:** Creative Media, Sudoku, Badminton, Writing, Content Creation <br>
-🪼 **In Short:** I build solutions through code, guided by logic, design, and a vision for impactful systems—rooted in computer science and creative production <br>
+🪼 **In Short:** Engineering code-driven solutions at the intersection of logic, design, and production <br>
 ❔ **Username:** Skiz = Stray Kids, Studies = I like to study 😻
