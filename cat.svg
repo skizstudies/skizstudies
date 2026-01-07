@@ -5,19 +5,18 @@
       font-size: 14px; 
       fill: #8b949e; 
       white-space: pre;
-      opacity: 0; /* Hide all by default */
-      animation: cycle 4s step-end infinite;
+      opacity: 0;
+      animation: cycle 2s step-end infinite; 
     }
 
-    /* Schedule each frame to appear for 1 second */
-    #frame1 { animation-delay: 0.5s; }
-    #frame2 { animation-delay: 1s; }
-    #frame3 { animation-delay: 1.5s; }
-    #frame4 { animation-delay: 2s; }
+    #frame1 { animation-delay: 0s; }
+    #frame2 { animation-delay: 0.5s; }
+    #frame3 { animation-delay: 1s; }
+    #frame4 { animation-delay: 1.5s; }
 
     @keyframes cycle {
-      0% { opacity: 1; }  /* Show frame at its start time */
-      25% { opacity: 0; } /* Hide frame when the next one starts */
+      0% { opacity: 1; }
+      25% { opacity: 0; }
       100% { opacity: 0; }
     }
   </style>
@@ -44,7 +43,7 @@
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 
-  <text id="frame3" x="10" y="25" class="braille" fill="#c9d1d9">
+  <text id="frame3" x="10" y="25" class="braille">
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⢠⡄⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠶⠋⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
