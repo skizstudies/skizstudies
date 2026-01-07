@@ -26,8 +26,12 @@
   </tr>
 </table>
 
-## About Me
+## 👩🏻‍💻 About Me
 🌐 **Currently Exploring:** Cybersecurity, UX/UI, Data Science <br>
 🎱 **Side Quests:** Creative Media, Sudoku, Badminton, Writing, Content Creation <br>
 🪼 **In Short:** Engineering code-driven solutions at the intersection of logic, design, and production <br>
 ❔ **Username:** Skiz = Stray Kids, Studies = I like to study 😻
+
+![Commits](https://img.shields.io/badge/Commits-2k+-79C0FF?style=for-the-badge&logo=github&logoColor=white) ![Pull Requests](https://img.shields.io/badge/PRs-120-79C0FF?style=for-the-badge&logo=github&logoColor=white)  
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=skizstudies&label=Visitor%20Count&labelColor=%23000000&countColor=%238b949e&style=flat&labelStyle=none)
