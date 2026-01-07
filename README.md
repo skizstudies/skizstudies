@@ -35,4 +35,3 @@
 ![Commits](https://img.shields.io/badge/Commits-2k+-79C0FF?style=for-the-badge&logo=github&logoColor=white) ![Pull Requests](https://img.shields.io/badge/PRs-120-79C0FF?style=for-the-badge&logo=github&logoColor=white)  
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=skizstudies&label=Visitor%20Count&labelColor=%23000000&countColor=%238b949e&style=flat&labelStyle=none)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fskizstudies&count_bg=%2379C0FF&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)
