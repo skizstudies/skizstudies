@@ -6,7 +6,8 @@
       fill: #8b949e; 
       white-space: pre;
       opacity: 0;
-      animation: cycle 2s step-end infinite; 
+      animation: cycle 2s step-end infinite;
+      text-anchor: middle;
     }
 
     #frame1 { animation-delay: 0s; }
@@ -21,47 +22,47 @@
     }
   </style>
 
-  <text id="frame1" x="10" y="25" class="braille">
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⢱⡀⠀⠉⠉⠀⠀⠀⠀⠛⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
-    <tspan x="10" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+  <text id="frame1" x="225" y="25" class="braille">
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⢱⡀⠀⠉⠉⠀⠀⠀⠀⠛⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
+    <tspan x="225" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 
-  <text id="frame2" x="10" y="25" class="braille" fill="#c9d1d9">
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗  ⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿  ⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⢱⡀⠀⠒⠒⠀⠀⠀⠀⠒⠒⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
-    <tspan x="10" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+  <text id="frame2" x="225" y="25" class="braille" fill="#c9d1d9">
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗  ⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿  ⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⢱⡀⠀⠒⠒⠀⠀⠀⠀⠒⠒⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
+    <tspan x="225" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 
-  <text id="frame3" x="10" y="25" class="braille">
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗  ⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿  ⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⢱⡀⠀⠉⠉⠀⠀⠀⠀⠛⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
-    <tspan x="10" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+  <text id="frame3" x="225" y="25" class="braille">
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗  ⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿  ⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⢱⡀⠀⠉⠉⠀⠀⠀⠀⠛⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
+    <tspan x="225" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 
-  <text id="frame4" x="10" y="25" class="braille" fill="#c9d1d9">
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢠⡶⣄⠀⠀⠀⠀⠀⣠⡄⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⢱⡀⠀⠘⠃⠀⠀⠀⠀⠘⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
-    <tspan x="10" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+  <text id="frame4" x="225" y="25" class="braille" fill="#c9d1d9">
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⢠⡶⣄⠀⠀⠀⠀⠀⣠⡄⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠙⣷⡴⠶⣦</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⢱⡀⠀⠘⠃⠀⠀⠀⠀⠘⠃⠀⢠⡟⠀⠀⠀⢀⣀⣠⣤⠿⠞⠛⠋</tspan>
+    <tspan x="225" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="225" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 </svg>
