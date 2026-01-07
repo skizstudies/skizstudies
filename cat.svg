@@ -5,15 +5,24 @@
       font-size: 14px; 
       fill: #8b949e; 
       white-space: pre;
+      opacity: 0; /* Hide all by default */
+      animation: cycle 4s step-end infinite;
     }
-    #frame2 { animation: blink 1.5s step-end infinite; }
-    @keyframes blink {
-      0%, 90% { opacity: 0; }
-      91%, 100% { opacity: 1; }
+
+    /* Schedule each frame to appear for 1 second */
+    #frame1 { animation-delay: 0s; }
+    #frame2 { animation-delay: 1s; }
+    #frame3 { animation-delay: 2s; }
+    #frame4 { animation-delay: 3s; }
+
+    @keyframes cycle {
+      0% { opacity: 1; }  /* Show frame at its start time */
+      25% { opacity: 0; } /* Hide frame when the next one starts */
+      100% { opacity: 0; }
     }
   </style>
 
-  <text x="10" y="25" class="braille">
+  <text id="frame1" x="10" y="25" class="braille">
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠀⠀⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
@@ -35,7 +44,7 @@
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
   </text>
 
- <text id="frame3" x="10" y="25" class="braille" fill="#c9d1d9">
+  <text id="frame3" x="10" y="25" class="braille" fill="#c9d1d9">
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢀⡴⣆⠀⠀⠀⠀⠀⣠⡀⠀⠀⠀⠀⠀⠀⣼⣿⡗⢠⡄⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⠀⣠⠟⠀⠘⠷⠶⠶⠶⠾⠉⢳⡄⠀⠀⠀⠀⠀⣧⣿⠶⠋⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⣰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣤⣤⣤⣤⣤⣿⢿⣄⠀⠀⠀⠀</tspan>
@@ -44,7 +53,7 @@
     <tspan x="10" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
- </text>
+  </text>
 
   <text id="frame4" x="10" y="25" class="braille" fill="#c9d1d9">
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⢠⡶⣄⠀⠀⠀⠀⠀⣠⡄⠀⠀⠀⠀⠀⠀⣼⣿⡗⠀⠀⠀⠀</tspan>
@@ -55,5 +64,5 @@
     <tspan x="10" dy="1.2em">⣠⠾⠋⠙⣶⣤⣤⣤⣤⣤⣀⣠⣤⣾⣿⠴⠶⠚⠋⠉⠁⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠛⠒⠛⠉⠉⠀⠀⠀⣴⠟⢃⡴⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="10" dy="1.2em">⠀⠀⠀⠀⠀⠀⠀⠀⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
- </text>
+  </text>
 </svg>
